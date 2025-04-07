@@ -46,7 +46,8 @@
     },
     "scripts": {
         "test": "vendor/bin/phpunit",
-        "psalm": "vendor/bin/psalm --config=psalm.xml ./src"
+        "psalm": "psalm",
+        "psalm:baseline": "psalm --set-baseline=psalm-baseline.xml"
     },
     "config": {
         "sort-packages": true,
